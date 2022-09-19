@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar"
+
 /**
  * _puts - function that prints a string, followed by a new line, to stdout.
  *
