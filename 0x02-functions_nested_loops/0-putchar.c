@@ -1,26 +1,20 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: 'Printing characters using while statement'
- *
- * Return: Always 0 (Success)
+ * main - Check description
+ * Description: It prints the word Holberton, followed by a new line.
+ * Return: 0.
  */
-
 
 int main(void)
 {
-	char *p = "_putchar";
+	char word[9] = "_putchar\n";
 	int i;
 
-	i = 0;
-	while (p[i] != '\0')
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(p[i]);
-		i++
+		_putchar(word[i]);
 	}
-	_putchar('\n');
-
 	return (0);
 }
